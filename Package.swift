@@ -23,13 +23,13 @@
 import PackageDescription
 
 let package = Package(
-        name: "Starscream",
+        name: "StarscreamSwift",
         products: [
-            .library(name: "Starscream", targets: ["Starscream"])
+            .library(name: "StarscreamSwift", targets: ["StarscreamSwift"])
         ],
         dependencies: [],
         targets: [
-            .target(name: "Starscream")
+            .target(name: "StarscreamSwift")
         ]
 )
 
